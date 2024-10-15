@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+.header{
+    background-color: #cc0000;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+}
+.header input[type="text"]{
+    width: 100%;
+    padding: 8px;
+}
+.header .logo{
+    width: 24px;
+}
+.header .search-bar{
+    margin: 0 20px;
+}
+.header .menubutton{
+    display: flex;
+    gap: 20px;
+}
+.header .menubutton img{
+height: 16px;
+vertical-align: middle;
+margin-right: 10px;
+}
+.header .dropdown{
+    position: relative;
+    display: inline-block;
+}
+.header .dropdown-context{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    top: 30px;
+}
+.header .dropdown-context a{
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.header .dropdown-context a:hover{
+    background-color: #ddd;
+}
+.header .dropdown:hover .dropdown-context{
+    display: block;
+}
+.header a{
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.header a:hover{
+    background-color: #e6b800;
+    text-decoration: none;
+}
+.context{
+    padding: 20px;
+    display: inline-block;
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    width: 300px;
+    font-size: 20px;
+}
+.list ul li img{
+    width: 220px;
+    display: block;
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list ul li a:hover{
+    color: #cc0000;
+    border-bottom: 1px solid #cc0000;
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.card ul{
+    display: flex;
+    padding: 10px;
+    margin: 0 10px;
+}
+.card ul li {
+    list-style: none;
+}
+.card img{
+    width: 500px;
+    height: auto;
+}
+.card h3{
+    margin: 10px 0;
+}
+.card-button{
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+.card-button a{
+    text-decoration: none;
+    color: black;
+}
+.card-button a:hover{
+    text-decoration: none;
+    color: #cc0000;
+}
+.container{
+    display: flex;
+    height: 891px;
+}
+.sidebar{
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #d32f2f;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.sidebar ul li:hover{
+    background-color: #e57373;
+}
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.footer{
+    background-color: #fff;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+.footer-context{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.footer-column{
+    width: 23%;
+}
+.footer-column h4{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li{
+    margin: 5px 0;
+    font-size: 14px;
+}
+.footer-column ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.footer-column ul li a:hover{
+    color: #cc0000;
+    border-bottom: 1px solid #cc0000;
+}
+.footer-connect{
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.footer-connect img{
+    width: 30px;
+    margin: 0 10px;
+    display: inline-block;
+}
+.form-group{
+    font-size: larger;
+}
